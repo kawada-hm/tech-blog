@@ -1,0 +1,36 @@
+---
+---
+
+@import "minima";
+
+// カスタムスタイル
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.post-content {
+  margin-bottom: 2rem;
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+code {
+  background-color: #f8f9fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  overflow-x: auto;
+}

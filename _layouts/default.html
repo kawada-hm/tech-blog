@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+  {% include head.html %}
+</head>
+<body class="d-flex flex-column h-100">
+  {% include header.html %}
+  
+  <main class="flex-shrink-0">
+    <div class="container py-4">
+      {{ content }}
+    </div>
+  </main>
+  
+  {% include footer.html %}
+</body>
+</html>
